@@ -49,7 +49,7 @@ spec:
 ```
 
 ###After setup
-We defined env vars:
+We defined env vars (already included in `PATH`):
 ```shell
 DOCKER_HOME=/opt/docker
 MAVEN_HOME=/opt/maven
