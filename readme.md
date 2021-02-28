@@ -1,4 +1,4 @@
-###Description
+### Description
 Jenkins image with bundled OpenJDK-11, Maven-3.6.3 and Docker-20.10.4
 
 For k8s use follow this sample `yml` file:
@@ -48,7 +48,7 @@ spec:
           mountPath: /var/lib/docker
 ```
 
-###After setup
+### After setup
 We defined env vars (already included in `PATH`):
 ```shell
 DOCKER_HOME=/opt/docker
