@@ -1,5 +1,5 @@
 ### Description
-Jenkins image with bundled OpenJDK-11, Maven-3.6.3 and Docker-20.10.4
+Jenkins image with bundled OpenJDK-11, Maven-3.6.3, Docker-20.10.4 and kubectl-v1.20.4
 
 For k8s use follow this sample `yml` file:
 
@@ -51,7 +51,7 @@ spec:
 ### After setup
 We defined env vars (already included in `PATH`):
 ```shell
-DOCKER_HOME=/opt/docker
-MAVEN_HOME=/opt/maven
+DOCKER_HOME=/opt/docker/bin
+MAVEN_HOME=/opt/maven/bin
 ```
 Simply configure these in *Manage Jenkins -> Global Tool Configuration*, all done! 
